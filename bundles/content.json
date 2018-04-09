@@ -1,0 +1,88 @@
+{
+  "/sites": {
+    "name": "sites",
+    "path": "/content/sites",
+    "url": "/sites",
+    "files": {},
+    "pages": {
+      "01-self-portrait": {
+        "name": "01-self-portrait",
+        "path": "/content/sites/01-self-portrait",
+        "url": "/sites/01-self-portrait",
+        "source": "/content/sites/01-self-portrait"
+      },
+      "02-steve-harvey-and-matt": {
+        "name": "02-steve-harvey-and-matt",
+        "path": "/content/sites/02-steve-harvey-and-matt",
+        "url": "/sites/02-steve-harvey-and-matt",
+        "source": "/content/sites/02-steve-harvey-and-matt"
+      },
+      "03-hashworms": {
+        "name": "03-hashworms",
+        "path": "/content/sites/03-hashworms",
+        "url": "/sites/03-hashworms",
+        "source": "/content/sites/03-hashworms"
+      }
+    }
+  },
+  "/sites/01-self-portrait": {
+    "title": "Self-Portrait",
+    "view": "site",
+    "date": "2018-04-08",
+    "author": "Olia Lialina",
+    "dat": "dat://f168ec921ba6ae102bde468ba7cb485d5cb71e4ac4f7b538f916f88e6638ba40/",
+    "http": "http://epa.archive.work/",
+    "text": "hi nice one really great super",
+    "visible": true,
+    "name": "01-self-portrait",
+    "path": "/content/sites/01-self-portrait",
+    "url": "/sites/01-self-portrait",
+    "files": {},
+    "pages": {}
+  },
+  "/sites/02-steve-harvey-and-matt": {
+    "title": "Steve, Harvey and Matt",
+    "view": "site",
+    "date": "2018-04-09",
+    "author": "Paul Soulellis",
+    "dat": "dat://epa.hashbase.io",
+    "http": "http://epa.archive.work/",
+    "text": "hi nice one really great super",
+    "visible": true,
+    "name": "02-steve-harvey-and-matt",
+    "path": "/content/sites/02-steve-harvey-and-matt",
+    "url": "/sites/02-steve-harvey-and-matt",
+    "files": {},
+    "pages": {}
+  },
+  "/sites/03-hashworms": {
+    "title": "Hashworms",
+    "view": "site",
+    "date": "2018-04-10",
+    "author": "Raphaël Bastide",
+    "dat": "dat://ff176b8c453939142d592e1c2c5eef7c9c69423e1f85bc2560af52e6a8750ab2",
+    "text": "hi nice one really great super",
+    "visible": true,
+    "name": "03-hashworms",
+    "path": "/content/sites/03-hashworms",
+    "url": "/sites/03-hashworms",
+    "files": {},
+    "pages": {}
+  },
+  "/": {
+    "title": "Peer-to",
+    "text": "*Peer-to* a curated collection of work engaging contemporary publishing, data ownership, and archival practice. Granting network infrastructure ensuring continued accessibility.",
+    "name": "content",
+    "path": "/content",
+    "url": "/",
+    "files": {},
+    "pages": {
+      "sites": {
+        "name": "sites",
+        "path": "/content/sites",
+        "url": "/sites",
+        "source": "/content/sites"
+      }
+    }
+  }
+}

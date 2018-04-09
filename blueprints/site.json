@@ -1,5 +1,6 @@
 {
   "title": "Site",
+  "pages": false,
   "fields": {
     "title": {
       "label": "Title",
@@ -7,12 +8,14 @@
     },
     "date": {
       "label": "date",
-      "type": "text",
-      "default": "today"
+      "type": "date",
+      "default": "today",
+      "width": "1/2"
     },
     "author": {
       "label": "Author",
-      "type": "text"
+      "type": "text",
+      "width": "1/2"
     },
     "dat": {
       "label": "Dat URL",

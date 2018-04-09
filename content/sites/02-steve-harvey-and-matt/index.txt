@@ -1,11 +1,15 @@
 title: Steve, Harvey and Matt
 ----
+view: site
+----
 date: 2018-04-09
 ----
 author: Paul Soulellis
 ----
-dat: dat://epa.hashbase.io 
+dat: dat://epa.hashbase.io
 ----
 http: http://epa.archive.work/
 ----
 text: hi nice one really great super
+----
+visible: true
