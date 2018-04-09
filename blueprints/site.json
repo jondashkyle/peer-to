@@ -1,0 +1,32 @@
+{
+  "title": "Site",
+  "fields": {
+    "title": {
+      "label": "Title",
+      "type": "text"
+    },
+    "date": {
+      "label": "date",
+      "type": "text",
+      "default": "today"
+    },
+    "author": {
+      "label": "Author",
+      "type": "text"
+    },
+    "dat": {
+      "label": "Dat URL",
+      "type": "text",
+      "width": "1/2"
+    },
+    "http": {
+      "label": "HTTPS URL",
+      "type": "text",
+      "width": "1/2"
+    },
+    "text": {
+      "label": "Text",
+      "type": "textarea"
+    }
+  }
+}
