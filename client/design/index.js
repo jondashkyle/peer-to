@@ -1,4 +1,5 @@
 var css = require('sheetify')
 
 css('nanoreset')
-css('./index.css')
+css('./styles.js')
+css('./custom.js')

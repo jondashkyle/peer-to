@@ -1,0 +1,11 @@
+title: Self-Portrait
+----
+date: 2018-04-08
+----
+author: Olia Lialina
+----
+dat: dat://f168ec921ba6ae102bde468ba7cb485d5cb71e4ac4f7b538f916f88e6638ba40/
+----
+http: http://epa.archive.work/
+----
+text: hi nice one really great super

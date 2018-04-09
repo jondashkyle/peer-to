@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>peer-to</title>
+    <title>Peer-to</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="/bundles/bundle.css"/> 
+    <style>
+      .loading {
+        box-sizing: border-box;
+        border-radius: 50%;
+        border: 3px solid #000;
+        border-bottom-color: transparent;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        height: 30px;
+        width: 30px;
+        animation: loading 1s linear infinite;
+      }
+
+      @keyframes loading {
+        0% { transform: rotate(0deg) }
+        100% { transform: rotate(360deg) }
+      }
+    </style>
   </head>
   <body>
     <main></main>
+    <div class="loading"></div>
     <script src="/bundles/bundle.js"></script>
   </body>
 </html>
