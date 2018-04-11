@@ -50,7 +50,7 @@ var styles = css`
   }
 `
 
-var total = 28
+var total = 26
 var today = new Date().getDate()
 var days = Array(total).fill(null).map(function () {
   return (Math.random() * 90) - 45
