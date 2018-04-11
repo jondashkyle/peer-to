@@ -2,7 +2,7 @@ title: Open Call
 ----
 view: opencall
 ----
-text: This is an open call for submissions to *Peer-to*, an online and distributed exhibition space. This space not only provides context through relational format (e.g. displaying works in parallel), but also grants permanent network infrastructure ensuring continued accessibility to work contained within the collection.
+text: This is an open call for submissions to *Peer-to*, a decentralized online exhibition space. This space not only provides context through relational format (e.g. displaying works in parallel), but also grants permanent network infrastructure ensuring continued accessibility to work contained within the collection.
 
 - Deadline is April 26th.
 - Must be published over the `dat://` protocol.
