@@ -21,7 +21,6 @@ function plugin (state, emitter) {
       mono.load()
     ]).then(function () {
       state.ui.loaded = true
-      console.log('k')
       emitter.emit(state.events.RENDER)
     }).catch(function (err) {
       state.ui.loaded = true
