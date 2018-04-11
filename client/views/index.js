@@ -1,3 +1,5 @@
 module.exports = {
-  default: require('./default')
+  about: require('./about'),
+  default: require('./default'),
+  opencall: require('./open-call')
 }

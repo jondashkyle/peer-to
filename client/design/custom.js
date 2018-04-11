@@ -1,6 +1,6 @@
 var custom = `
   html {
-    font-size: 160%;
+    font-size: 140%;
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
@@ -45,6 +45,10 @@ var custom = `
     padding-left: 1.5rem;
   }
 
+  .copy ul li + li {
+    margin: 1rem 0;
+  }
+
   .copy ul li:before {
     content: '—';
     display: block;
@@ -53,7 +57,7 @@ var custom = `
     left: 0;
   }
 
-  .wmx-copy { max-width: 24rem }
+  .wmx-copy { max-width: 26rem }
 
   .ti1 {
     text-indent: -1.5rem;
@@ -65,7 +69,8 @@ var custom = `
   }
 
   code {
-    font-family: 'Lars Mono', menlo, manaco, monospace;
+    font-family: 'Plex Mono', menlo, manaco, monospace;
+    font-size: 0.85em;
   }
 
   ::-webkit-input-placeholder { color: #000 }
@@ -82,6 +87,11 @@ var custom = `
     font-family: 'Spectral Light';
     font-style: italic;
     src: url(/assets/fonts/Spectral-ExtraLightItalic.ttf);
+  }
+
+  @font-face {
+    font-family: 'Plex Mono';
+    src: url(/assets/fonts/IBMPlexMono-Light.ttf);
   }
 `
 

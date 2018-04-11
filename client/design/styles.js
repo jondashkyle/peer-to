@@ -4,7 +4,7 @@ var utils = [ ]
 
 var typography = {
   sans: '"Spectral Light", helvetica, arial, sans-serif',
-  mono: '"Lars Mono", menlo, monospace'
+  mono: '"Plex Mono", menlo, monospace'
 }
 
 var colors = {
