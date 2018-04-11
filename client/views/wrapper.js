@@ -10,7 +10,7 @@ function view (state, emit) {
   var page = state.content[state.href || '/open-call']
 
   // loading
-  if (!state.site.loaded) {
+  if (!state.site.loaded || !state.ui.loaded) {
     return renderLoading(state, emit)
   }
 
