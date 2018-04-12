@@ -1,3 +1,5 @@
 title: Peer-to
 ----
 text: *Peer-to* a curated collection of work engaging contemporary publishing, data ownership, and archival practice. Granting network infrastructure ensuring continued accessibility.
+----
+footer: Site created with [Enoki](https://enoki.site), Published with [Dat](https://datproject.org), Typeset in [Wremena Light by Temporrary State](http://typefaces.temporarystate.net/preview/Wremena) and [IBM Plex Mono Light](https://www.ibm.com/plex/)

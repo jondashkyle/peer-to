@@ -79,6 +79,17 @@ var custom = `
   :-moz-placeholder { color: #000 }
 
   @font-face {
+    font-family: 'Wremena Light';
+    src: url(/assets/fonts/Wremena-Light.woff);
+  }
+
+  @font-face {
+    font-family: 'Wremena Light';
+    font-weight: bold;
+    src: url(/assets/fonts/Wremena-Bold.woff);
+  }
+
+  @font-face {
     font-family: 'Spectral Light';
     src: url(/assets/fonts/Spectral-ExtraLight.ttf);
   }

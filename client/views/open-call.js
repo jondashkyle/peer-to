@@ -62,12 +62,17 @@ function view (state, emit) {
   var page = Page(state)
 
   return html`
-    <div class="x xw xjc ${styles}">
+    <div class="${styles}">
       <div id="days" class="days c12 p1 x xw xjb ff-mono">
         ${days.reduce(createDay, [ ])}
       </div>
-      <div id="call" class="p1 sm-py4 copy wmx-copy">
-        ${raw(md.render(page('/open-call').value('text')))}
+      <div class="x xw xjc">
+        <div id="call" class="p1 sm-py4 copy wmx-copy">
+          ${raw(md.render(page('/open-call').value('text')))}
+        </div>
+      </div>
+      <div class="tac ff-mono ttu op25 p1" style="font-size: 0.5rem">
+        ${raw(md.render(page('/').value('footer')))}
       </div>
     </div>
   `

@@ -3,7 +3,7 @@ var gr8 = require('gr8')
 var utils = [ ]
 
 var typography = {
-  sans: '"Spectral Light", helvetica, arial, sans-serif',
+  sans: '"Wremena Light", helvetica, arial, sans-serif',
   mono: '"Plex Mono", menlo, monospace'
 }
 
