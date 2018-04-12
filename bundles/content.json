@@ -38,7 +38,7 @@
   "/open-call": {
     "title": "Open Call",
     "view": "opencall",
-    "text": "This is an open call for submissions to *Peer-to*, a decentralized online exhibition space. This space not only provides context through relational format (e.g. displaying works in parallel), but also grants permanent network infrastructure ensuring continued accessibility to work contained within the collection.\n\n- Deadline is April 26th.\n- Must be published over the `dat://` protocol.\n- Must include a title, author name, and description (250 words). A `dat://` url is optional (we can assist in adding your work to the network).\n\nSubmissions will be showcased at [Peer-to-Peer Web / Los Angeles](https://peer-to-peer-web.com/los-angeles/2018-04-28) and linked to from this page.\n\nSubmissions accepted via [yo@peer-to-peer-web.com](yo@peer-to-peer-web.com).",
+    "text": "This is an open call for submissions to **Peer-to**, a decentralized online exhibition space. This space not only provides context through relational format (e.g. displaying works in parallel), but also grants permanent network infrastructure ensuring continued accessibility to work contained within the collection.\n\n- Deadline is April 26th.\n- Must be published over the `dat://` protocol.\n- Must include a title, author name, and description (250 words). A `dat://` url is optional (we can assist in adding your work to the network).\n\nSubmissions will be showcased at [Peer-to-Peer Web / Los Angeles](https://peer-to-peer-web.com/los-angeles/2018-04-28) and linked to from this page.\n\nSubmissions accepted via [yo@peer-to-peer-web.com](yo@peer-to-peer-web.com).",
     "name": "open-call",
     "path": "/content/open-call",
     "url": "/open-call",
