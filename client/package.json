@@ -15,6 +15,7 @@
     "dat-href": "0.0.2",
     "dateformat": "^3.0.3",
     "enoki": "^2.0.8",
+    "fontfaceobserver": "^2.0.13",
     "gr8": "^3.1.5",
     "markdown-it": "^8.4.1",
     "markdown-it-implicit-figures": "^0.6.0",
