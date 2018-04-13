@@ -15,8 +15,8 @@ var styles = css`
     font-size: 150vmax;
     -moz-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
-    -moz-text-stroke-color: red;
-    -webkit-text-stroke-color: red;
+    -moz-text-stroke-color: #ffff00;
+    -webkit-text-stroke-color: #ffff00;
     -moz-text-stroke-width: 2px;  
     -webkit-text-stroke-width: 2px;
   }
@@ -35,7 +35,7 @@ var styles = css`
   }
 
   :host .day.passed > div {
-    background: red;
+    background: #ffff00;
     position: absolute;
     top: 50%;
     left: -0.25rem;
@@ -44,7 +44,7 @@ var styles = css`
   }
 
   :host .day.today > div {
-    border: 2px solid red;
+    border: 2px solid #ffff00;
     position: absolute;
     border-radius: 50%;
     top: -0.25rem;
