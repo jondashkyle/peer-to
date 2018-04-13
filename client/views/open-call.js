@@ -6,6 +6,21 @@ var css = require('sheetify')
 
 var md = new Markdown()
 var styles = css`
+  :host .twosix {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    pointer-events: none;
+    font-size: 150vmax;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -moz-text-stroke-color: red;
+    -webkit-text-stroke-color: red;
+    -moz-text-stroke-width: 2px;  
+    -webkit-text-stroke-width: 2px;
+  }
+
   :host .copy {
     animation: loading 750ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
   }
@@ -50,6 +65,10 @@ var styles = css`
   }
 `
 
+var twosix = {
+  rotate: (Math.random() * 30) - 15
+}
+
 var total = 26
 var today = new Date().getDate()
 var days = Array(total).fill(null).map(function () {
@@ -63,6 +82,7 @@ function view (state, emit) {
 
   return html`
     <div class="${styles}">
+      <div class="twosix" style="transform: translate(-50%, -50%) rotate(${twosix.rotate}deg)">26</div>
       <div id="days" class="days c12 p1 x xw xjb ff-mono">
         ${days.reduce(createDay, [ ])}
       </div>
