@@ -82,7 +82,6 @@ function view (state, emit) {
 
   return html`
     <div class="${styles}">
-      <div class="twosix" style="transform: translate(-50%, -50%) rotate(${twosix.rotate}deg)">26</div>
       <div id="days" class="days c12 p1 x xw xjb ff-mono">
         ${days.reduce(createDay, [ ])}
       </div>
@@ -100,7 +99,7 @@ function view (state, emit) {
   function createDay (res, cur, i) {
     i = i + 1
     res.push(html`
-      <div class="day ${i <= today ? 'passed' : ''} ${i === total ? 'today' : ''}">
+      <div class="day ${i <= today && i !== total ? 'passed' : ''} ${i === total ? 'today' : ''}">
         ${i}
         <div style="transform: rotate(${cur}deg">
       </div>

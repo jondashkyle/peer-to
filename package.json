@@ -4,17 +4,18 @@
   "description": "A curated list of archive",
   "main": "index.js",
   "scripts": {
-    "start": "watchify ./index.js -o ../bundles/bundle.js -t sheetify -p [ css-extract -o ../bundles/bundle.css ] index.js",
-    "build": "browserify ./index.js -o ../bundles/bundle.js -t yo-yoify -t  [ sheetify -u sheetify-cssnext ] -g es2040 -p [ css-extract -o ../bundles/bundle.css ] -p tinyify"
+    "start": "enoki content -w & watchify source/index.js -o bundles/bundle.js -t sheetify -p [ css-extract -o bundles/bundle.css ] source/index.js",
+    "dev": "enoki content --watch & budo source/index.js --dir -s bundles/bundle.js -P -- -t sheetify -p [ css-extract -o bundles/bundle.css ]",
+    "build": "enoki content && browserify source/index.js -o bundles/bundle.js -t yo-yoify -t  [ sheetify -u sheetify-cssnext ] -g es2040 -p [ css-extract -o bundles/bundle.css ] -p tinyify"
   },
   "keywords": [],
   "author": "Jon-Kyle <contact@jon-kyle.com> (http://jon-kyle.com)",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "dependencies": {
     "choo": "^6.0.0",
     "dat-href": "0.0.2",
     "dateformat": "^3.0.3",
-    "enoki": "^2.0.8",
+    "enoki": "^2.1.0",
     "fontfaceobserver": "^2.0.13",
     "gr8": "^3.1.5",
     "markdown-it": "^8.4.1",
