@@ -8,6 +8,4 @@ author: Raphaël Bastide
 ----
 dat: dat://ff176b8c453939142d592e1c2c5eef7c9c69423e1f85bc2560af52e6a8750ab2
 ----
-text: hi nice one really great super
-----
 visible: true

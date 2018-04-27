@@ -6,10 +6,8 @@ date: 2018-04-09
 ----
 author: Paul Soulellis
 ----
-dat: dat://epa.hashbase.io
+dat: dat://87b5ab52efcecfaba5f69a7b13562696289db7b06440ba9433e07fb20f24af93
 ----
 http: http://epa.archive.work/
-----
-text: hi nice one really great super
 ----
 visible: true

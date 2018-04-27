@@ -1,0 +1,56 @@
+ports:
+  http: 80
+  https: 443
+directory: ~/sites
+letsencrypt:
+  email: 'yo@peer-to-peer-web.com'
+  agreeTos: true
+sites:
+  01-self-portrait:
+    url: dat://f168ec921ba6ae102bde468ba7cb485d5cb71e4ac4f7b538f916f88e6638ba40/
+    datOnly: true
+  02-steve-harvey-and-matt:
+    url: dat://87b5ab52efcecfaba5f69a7b13562696289db7b06440ba9433e07fb20f24af93
+    datOnly: true
+  03-hashworms:
+    url: dat://ff176b8c453939142d592e1c2c5eef7c9c69423e1f85bc2560af52e6a8750ab2
+    datOnly: true
+  04-olly-portal:
+    url: dat://d73a9b6abf4e65553050bc979f6c873fe41b8144fb371fea1539728fa75ed968
+    datOnly: true
+  05-olly-pp1:
+    url: dat://1937e8872e8926ad513f6f2231f85ae96c82d5cd2a7f2895c97f0cb9b930396a
+    datOnly: true
+  06-eren-vine:
+    url: dat://3d089ee942cd71f9ecade553eb8286945db1f969368f3adaa4244d90012fbe15
+    datOnly: true
+  07-calvin-hutcheon-second-intl:
+    url: dat://87babb91d328d2698f1df1f828142a9fd218dd9b2463cb620bc75e199b8a4323
+    datOnly: true
+  08-frida-ortgies-tonn:
+    url: dat://5c7f35ba7ed7de32475519b381f0c36cfca98c0f88e75e7a6a7034fd92c35e71
+    datOnly: true
+  09-cleo-crumb:
+    url: dat://a57302f3cb4dc9bf8176e08e0470fd3ba805e0a57d11c5a792f8df237fa44e90/
+    datOnly: true
+  10-steve-stacking-rocks:
+    url: dat://e37f4959ab25d1bad63c00f91e885c4090985396bc2ba48ff88a7537bd542b67/
+    datOnly: true
+  11-ipek-introverted-devices:
+    url: dat://f671ea2b0d3bfbe6e55df09cce21ff68c69de6e70a76a302d40d30d25cb6ebbd
+    datOnly: true
+  12-fabian-everything-devolves-into-silly-words:
+    url: dat://ea3f818cbaca780d7a3bd3aa3c4995dcf0fa85e4a56d053e276509358dc13a1a
+    datOnly: true
+  13-billy-netart:
+    url: dat://282ae776c288fb473c4d4438494c4dda3fbf063b8cb8cf0b73e56f333c2ff75c/
+    datOnly: true
+  14-sebastian-mariposa:
+    url: dat://409979ff32c32b9fe4922671a9bfb1d5b588e59f55b8d3d514d518e01faff420
+    datOnly: true
+  15-steven-grafitti:
+    url: dat://06648b8202f52ec2645789636a3242b9343fb1f5d9cc8f51bbb9b7f18b315c7e
+    datOnly: true
+  16-lukas-a-little-plant:
+    url: dat://e1145a2cbaabf315010a9e5cc3d606b35fadeff7466ea5808c1edd82dd209f34/
+    datOnly: true

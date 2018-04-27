@@ -7,7 +7,7 @@ var views = require('./')
 module.exports = view
 
 function view (state, emit) {
-  var page = state.content[state.href || '/soon']
+  var page = state.content[state.href || '/']
 
   // loading
   if (!state.site.loaded || !state.ui.loaded) {

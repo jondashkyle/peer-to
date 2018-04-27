@@ -16,13 +16,18 @@ function view (state, emit) {
     .visible()
     .sortBy('date', 'asc')
     .toArray()
+  var text = page().value('text')
+
+  if (!state.site.p2p) {
+    text += '\n\n' + page().value('fallback')
+  }
 
   return html`
     <div class="x xw p0-5">
-      <div class="p0-5 copy wmx-copy">
-        ${raw(md.render(page().value('text')))}
+      <div class="p0-5 copy wmx-copy" style="min-height: 50vh;">
+        ${raw(md.render(text))}
       </div>
-      <ul class="c12">
+      <ul class="c12 tc1 sm-tc2">
         ${children.map(createChild)}
       </ul>
     </div>
@@ -30,14 +35,14 @@ function view (state, emit) {
 
   function createChild (props) {
     var child = page(props)
-    var link = href(child.value('http'), child.value('dat'))
+    var link = child.value('dat')
 
     return html`
       <li class="p0-5">
-        <div class="ti1">
-          <a href="${link}" target="_blank">${child.value('title')}, ${child.value('date').split('-')[0]}<br>
-          ${child.value('author')}</a>
-        </div>
+        <a href="${link}" target="_blank" class="db ti1">
+          ${child.value('title')}, <span class="ff-mono" style="font-size: 0.65em">${child.value('date').split('-')[0]}</span><br>
+          ${child.value('author')}
+        </a>
       </li>
     `
   }

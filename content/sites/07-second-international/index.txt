@@ -1,0 +1,11 @@
+title: Second International
+----
+view: site
+----
+date: 2018-04-10
+----
+author: Calvin Hutcheon
+----
+dat: dat://87babb91d328d2698f1df1f828142a9fd218dd9b2463cb620bc75e199b8a4323
+----
+visible: true

@@ -1,0 +1,11 @@
+title: Mariposa 68 - Butterfly 68
+----
+view: site
+----
+date: 2018-04-10
+----
+author: Colectivo Intamalase Collective
+----
+dat: dat://409979ff32c32b9fe4922671a9bfb1d5b588e59f55b8d3d514d518e01faff420/
+----
+visible: true

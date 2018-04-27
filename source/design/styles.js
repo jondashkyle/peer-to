@@ -65,8 +65,8 @@ utils.push({
 })
 
 module.exports = gr8({
-  lineHeight: [1, 1.1, 1.25, { '1-5': 1.65 }],
-  spacing: [0, 0.25, 0.5, 1, 1.5, 2, 3, 4],
+  lineHeight: [1, 1.1, 1.25, 1.5],
+  spacing: [0, { '0-5': 0.75 }, { '1': 1.5 }],
   fontSize: [1, 2, 3, 4],
   utils: utils,
   responsive: true,

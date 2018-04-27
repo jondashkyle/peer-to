@@ -1,0 +1,11 @@
+title: Introverted Devices
+----
+view: site
+----
+date: 2018-04-10
+----
+author: İpek Burçak
+----
+dat: dat://f671ea2b0d3bfbe6e55df09cce21ff68c69de6e70a76a302d40d30d25cb6ebbd
+----
+visible: true

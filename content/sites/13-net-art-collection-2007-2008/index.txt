@@ -1,0 +1,11 @@
+title: Net.art Collection 2007-2008
+----
+view: site
+----
+date: 2018-04-10
+----
+author: Billy Rennekamp
+----
+dat: dat://282ae776c288fb473c4d4438494c4dda3fbf063b8cb8cf0b73e56f333c2ff75c/
+----
+visible: true

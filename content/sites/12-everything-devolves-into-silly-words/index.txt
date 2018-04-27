@@ -1,0 +1,11 @@
+title: Everything devolves into silly words
+----
+view: site
+----
+date: 2018-04-10
+----
+author: Fabian Frei
+----
+dat: dat://ea3f818cbaca780d7a3bd3aa3c4995dcf0fa85e4a56d053e276509358dc13a1a/
+----
+visible: true
