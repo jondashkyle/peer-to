@@ -7,7 +7,7 @@ var views = require('./')
 module.exports = view
 
 function view (state, emit) {
-  var page = state.content[state.href || '/open-call']
+  var page = state.content[state.href || '/soon']
 
   // loading
   if (!state.site.loaded || !state.ui.loaded) {
@@ -55,7 +55,7 @@ function renderLoading (state, emit) {
 function renderNotFound (state, emit) {
   return html`
     <body>
-      <div class="notfound">
+      <div class="notfound p1">
         Page not found
       </div>
     </body>
