@@ -16,6 +16,8 @@ var custom = `
   body {
     margin: 0;
     padding: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   @media (max-width: 767px) {
@@ -29,6 +31,8 @@ var custom = `
     text-decoration: none;
     border-bottom: currentColor solid 0;
   }
+
+  .wbba { word-break: break-all }
 
   .copy { hyphens: auto; }
   .copy a { border-bottom: 0.05em solid currentColor }

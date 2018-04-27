@@ -1,7 +1,7 @@
 title: Peer-to
 ----
-text: *Peer-to* a curated collection of archives. Granting permanent network infrastructure ensuring continued accessibility to work contained within the collection.
+text: Peer-to a curated collection of archives. Granting permanent network infrastructure ensuring continued accessibility to work contained within the collection.
 ----
 fallback: Please download and install [Beaker Browser](https://beaker-browser) to view the collection over a peer-to-peer network.
 ----
-footer: Site created with [Enoki](https://enoki.site), Published with [Dat](https://datproject.org), Typeset in [Wremena Light by Temporrary State](http://typefaces.temporarystate.net/preview/Wremena) and [IBM Plex Mono Light](https://www.ibm.com/plex/)
+footer: Site created with [Enoki](https://enoki.site), Published with [Dat](https://datproject.org), Typeset in [Wremena Light by Temporary State](http://typefaces.temporarystate.net/preview/Wremena) and [IBM Plex Mono Light](https://www.ibm.com/plex/)

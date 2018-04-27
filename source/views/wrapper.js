@@ -28,7 +28,7 @@ function view (state, emit) {
 
   // template
   return html`
-    <body class="bgc-black fc-white ff-sans fs1 lh1-5">
+    <body class="bgc-black fc-white ff-sans fs1">
       ${view(state, emit)} 
     </body>
   `
