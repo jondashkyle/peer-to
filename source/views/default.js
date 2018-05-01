@@ -20,13 +20,13 @@ function view (state, emit) {
     .visible()
     .sortBy('date', 'asc')
     .toArray()
-  var text = page().value('text')
+  var text = page('/').value('text')
 
   if (!state.site.p2p) {
-    text += '\n\n' + page().value('fallback')
+    text += '\n\n' + page('/').value('fallback')
   }
 
-  if (live > now) return createSoon()
+  // if (live > now) return createSoon()
 
   return html`
     <div class="x xw p0-5">
@@ -48,7 +48,7 @@ function view (state, emit) {
 
     return html`
       <li class="p0-5">
-        <a href="${link}" target="_blank" class="wbba db ti1">
+        <a href="${link}" target="_blank" class="db ti1">
           ${child.value('title')}<br>
           ${child.value('author')}
         </a>

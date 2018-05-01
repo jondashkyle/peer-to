@@ -1,4 +1,4 @@
-title: Steve, Harvey and Matt
+title: Steve, Harvey and Matt,
 ----
 view: site
 ----
